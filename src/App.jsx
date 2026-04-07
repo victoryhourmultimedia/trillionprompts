@@ -36,3 +36,4 @@ function PromptModal({ prompt, onClose, lang }) {
     </div>
   );
 }
+export default App;
