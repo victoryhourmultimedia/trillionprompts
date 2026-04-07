@@ -90,7 +90,7 @@ const getStatLabel = (lang,i) => (STAT_LABELS[lang]??STAT_LABELS.en)[i];
 const getStatVals  = (lang)   => STATS_VALS[lang]??STATS_VALS.default;
 
 async function callClaude(system, userMsg) {
-  const res = await fetch("https://claude-proxy.victoryhourdream.workers.dev", {
+  const res = await fetch("https://claude-proxy.victoryhourdream.workers.dev/v1/messages", {
     method:"POST", headers:{"Content-Type":"application/json"},
     body:JSON.stringify({ model:"claude-sonnet-4-20250514", max_tokens:1000, system, messages:[{role:"user",content:userMsg}] }),
   });
