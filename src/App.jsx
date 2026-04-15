@@ -443,7 +443,41 @@ export default function App() {
             ))}
           </div>
         )}
-
+        {/* ECOSYSTEM */}
+<div style={{marginBottom:"56px"}}>
+  <div style={{textAlign:"center",marginBottom:"36px"}}>
+    <div style={{fontSize:"10px",letterSpacing:"0.3em",color:C.gold,marginBottom:"10px"}}>VICTORY HOUR ECOSYSTEM</div>
+    <h2 style={{fontSize:"28px",fontWeight:"400",fontFamily:"'Georgia',serif",color:C.text}}>
+      Tools Built for <span style={{color:C.gold,fontStyle:"italic"}}>Builders.</span>
+    </h2>
+  </div>
+  <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(220px,1fr))",gap:"1px",background:"rgba(201,168,76,0.07)"}}>
+    {[
+      {icon:"📧",name:"Claude Vibe Guide",price:"$17",desc:"Master Claude AI from scratch",url:"https://victoryhour.gumroad.com/l/uayuj"},
+      {icon:"⚖️",name:"ComplianceForge™",price:"Free Trial",desc:"AI-powered regulatory compliance",url:"https://nhp-comply.pages.dev"},
+      {icon:"📞",name:"VictoryReception AI",price:"From $49/mo",desc:"AI voicemail in any language",url:"https://victoryreception.com"},
+      {icon:"🎯",name:"Niche Hunter AI",price:"$2.99",desc:"Find your perfect profitable niche",url:"https://victoryhour.gumroad.com/l/nichehunter"},
+      {icon:"🚀",name:"Coming Soon",price:"—",desc:"New tool dropping soon",url:"#"},
+      {icon:"⚡",name:"Coming Soon",price:"—",desc:"New tool dropping soon",url:"#"},
+      {icon:"🧠",name:"Coming Soon",price:"—",desc:"New tool dropping soon",url:"#"},
+      {icon:"💰",name:"Coming Soon",price:"—",desc:"New tool dropping soon",url:"#"},
+      {icon:"🌍",name:"Coming Soon",price:"—",desc:"New tool dropping soon",url:"#"},
+      {icon:"🔥",name:"Coming Soon",price:"—",desc:"New tool dropping soon",url:"#"},
+    ].map((product,i)=>(
+      <a key={i} href={product.url} target="_blank" rel="noopener noreferrer"
+        style={{display:"block",padding:"28px 24px",background:C.card,textDecoration:"none",transition:"all 0.22s",borderLeft:"2px solid transparent"}}
+        onMouseEnter={e=>{e.currentTarget.style.background="rgba(18,28,46,1)";e.currentTarget.style.borderLeft=`2px solid ${C.gold}`;}}
+        onMouseLeave={e=>{e.currentTarget.style.background=C.card;e.currentTarget.style.borderLeft="2px solid transparent";}}>
+        <div style={{fontSize:"28px",marginBottom:"12px"}}>{product.icon}</div>
+        <div style={{fontSize:"13px",fontWeight:"400",color:C.text,fontFamily:"'Georgia',serif",marginBottom:"6px"}}>{product.name}</div>
+        <div style={{fontSize:"11px",color:C.gold,marginBottom:"8px",letterSpacing:"0.1em"}}>{product.price}</div>
+        <div style={{fontSize:"11px",color:C.muted,lineHeight:"1.6"}}>{product.desc}</div>
+        {product.url !== "#" && <div style={{marginTop:"14px",fontSize:"10px",letterSpacing:"0.15em",color:C.gold}}>GET IT →</div>}
+        {product.url === "#" && <div style={{marginTop:"14px",fontSize:"10px",letterSpacing:"0.15em",color:"rgba(201,168,76,0.3)"}}>COMING SOON</div>}
+      </a>
+    ))}
+  </div>
+</div>
         {/* ACADEMY BANNER */}
         <div style={{marginTop:"56px",border:`1px solid rgba(201,168,76,0.18)`,padding:"40px 36px",display:"flex",alignItems:"center",justifyContent:"space-between",flexWrap:"wrap",gap:"24px",background:"rgba(11,29,58,0.35)",position:"relative",overflow:"hidden"}}>
           <div style={{position:"absolute",top:0,right:0,width:"250px",height:"100%",background:"linear-gradient(90deg,transparent,rgba(201,168,76,0.03))",pointerEvents:"none"}}/>
