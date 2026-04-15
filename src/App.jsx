@@ -30,7 +30,7 @@ const LANGUAGES = [
 ];
 
 const UI = {
-  en:{ headline:"Unlimited", sub:"AI Prompts.", tagline:"Unlimited AI prompts generated on demand — search anything, in any language.", searchPH:"Search unlimited AI prompts…", searchBtn:"SEARCH", searching:"SEARCHING…", featured:"AI-GENERATED PROMPTS", results:"RESULTS FOR", memberSince:"MEMBER SINCE", welcomeBack:"WELCOME BACK", unlimited:"UNLIMITED ACCESS", joinAcademy:"JOIN VICTORY HOUR ACADEMY", signOut:"SIGN OUT", createAcc:"CREATE FREE ACCOUNT →", signInBtn:"SIGN IN →", nameLabel:"FULL NAME", emailLabel:"EMAIL ADDRESS", passLabel:"PASSWORD", createTab:"CREATE ACCOUNT", loginTab:"SIGN IN", freeAccess:"Free access to unlimited AI prompts.", noLimits:"Create your free account. No credit card. No limits.", welcomeBack2:"Welcome back to the", archive:"archive.", alreadyHave:"Already have an account?", newHere:"New here?", hunger:"♥ 10% OF ALL PROCEEDS FIGHTS WORLD HUNGER", deeperTitle:"Go deeper with AI training", deeperSub:"built for builders.", deeperBody:"Victory Hour Academy is coming soon. AI courses, community, and tools — all under one roof.", joinFree:"COMING SOON", copyPrompt:"COPY PROMPT", copied:"✓ COPIED", retrieving:"RETRIEVING FROM THE ARCHIVE…", viewFull:"VIEW FULL PROMPT →", of:"OF", tagline2:"Clarity. Strategy. Action." },
+  en:{ headline:"Unlimited", sub:"AI Prompts.", tagline:"Unlimited AI prompts generated on demand — search anything, in any language.", searchPH:"Search unlimited AI prompts…", searchBtn:"SEARCH", searching:"SEARCHING…", featured:"FEATURED FROM THE ARCHIVE", results:"RESULTS FOR", memberSince:"MEMBER SINCE", welcomeBack:"WELCOME BACK", unlimited:"UNLIMITED ACCESS", joinAcademy:"JOIN VICTORY HOUR ACADEMY", signOut:"SIGN OUT", createAcc:"CREATE FREE ACCOUNT →", signInBtn:"SIGN IN →", nameLabel:"FULL NAME", emailLabel:"EMAIL ADDRESS", passLabel:"PASSWORD", createTab:"CREATE ACCOUNT", loginTab:"SIGN IN", freeAccess:"Free access to unlimited AI prompts.", noLimits:"Create your free account. No credit card. No limits.", welcomeBack2:"Welcome back to the", archive:"archive.", alreadyHave:"Already have an account?", newHere:"New here?", hunger:"♥ 10% OF ALL PROCEEDS FIGHTS WORLD HUNGER", deeperTitle:"Go deeper with AI training", deeperSub:"built for builders.", deeperBody:"Victory Hour Academy is coming soon. AI courses, community, and tools — all under one roof.", joinFree:"COMING SOON", copyPrompt:"COPY PROMPT", copied:"✓ COPIED", retrieving:"RETRIEVING FROM THE ARCHIVE…", viewFull:"VIEW FULL PROMPT →", of:"OF", tagline2:"Clarity. Strategy. Action." },
   fr:{ headline:"Un Trillion", sub:"de Prompts IA.", tagline:"La plus grande archive de prompts — indexée, notée, prête à l'emploi.", searchPH:"Chercher parmi un trillion de prompts…", searchBtn:"CHERCHER", searching:"RECHERCHE…", featured:"SÉLECTION DE L'ARCHIVE", results:"RÉSULTATS POUR", memberSince:"MEMBRE DEPUIS", welcomeBack:"BIENVENUE", unlimited:"ACCÈS ILLIMITÉ", joinAcademy:"REJOINDRE VICTORY HOUR ACADEMY", signOut:"SE DÉCONNECTER", createAcc:"CRÉER UN COMPTE GRATUIT →", signInBtn:"SE CONNECTER →", nameLabel:"NOM COMPLET", emailLabel:"ADRESSE EMAIL", passLabel:"MOT DE PASSE", createTab:"CRÉER UN COMPTE", loginTab:"CONNEXION", freeAccess:"Accès gratuit à un trillion de prompts.", noLimits:"Créez votre compte gratuit. Sans carte. Sans limites.", welcomeBack2:"Bon retour dans l'", archive:"archive.", alreadyHave:"Déjà un compte?", newHere:"Nouveau ici?", hunger:"♥ 10% DES REVENUS LUTTE CONTRE LA FAIM", deeperTitle:"Approfondissez votre formation IA", deeperSub:"faite pour les créateurs.", deeperBody:"Cours, communauté et outils dans Victory Hour Academy. Gratuit comme PromptVault.", joinFree:"REJOINDRE →", copyPrompt:"COPIER", copied:"✓ COPIÉ", retrieving:"RÉCUPÉRATION…", viewFull:"VOIR LE PROMPT COMPLET →", of:"SUR", tagline2:"Clarté. Stratégie. Action." },
   ar:{ headline:"تريليون", sub:"موجّه للذكاء الاصطناعي.", tagline:"أكبر أرشيف للموجّهات في العالم — مفهرس، مُقيّم، جاهز للاستخدام.", searchPH:"ابحث في تريليون موجّه…", searchBtn:"بحث", searching:"جارٍ البحث…", featured:"مختارات من الأرشيف", results:"نتائج لـ", memberSince:"عضو منذ", welcomeBack:"مرحباً بعودتك", unlimited:"وصول غير محدود", joinAcademy:"انضم لـ Victory Hour Academy", signOut:"تسجيل الخروج", createAcc:"إنشاء حساب مجاني →", signInBtn:"تسجيل الدخول →", nameLabel:"الاسم الكامل", emailLabel:"البريد الإلكتروني", passLabel:"كلمة المرور", createTab:"إنشاء حساب", loginTab:"تسجيل الدخول", freeAccess:"وصول مجاني لتريليون موجّه.", noLimits:"أنشئ حسابك المجاني. بدون بطاقة. بدون حدود.", welcomeBack2:"مرحباً بعودتك إلى", archive:"الأرشيف.", alreadyHave:"لديك حساب؟", newHere:"هنا لأول مرة؟", hunger:"♥ ١٠٪ من العائدات لمحاربة الجوع", deeperTitle:"تعمّق في تدريب الذكاء الاصطناعي", deeperSub:"مصمّم للبنّائين.", deeperBody:"دورات ومجتمع وأدوات داخل Victory Hour Academy. مجاني مثل PromptVault.", joinFree:"انضم مجاناً →", copyPrompt:"نسخ", copied:"✓ تم النسخ", retrieving:"جارٍ الاسترداد…", viewFull:"عرض الموجّه الكامل →", of:"من", tagline2:"وضوح. استراتيجية. عمل." },
   es:{ headline:"Un Billón", sub:"de Prompts de IA.", tagline:"El archivo de prompts más grande del mundo — indexado, valorado, listo para usar.", searchPH:"Buscar entre un billón de prompts…", searchBtn:"BUSCAR", searching:"BUSCANDO…", featured:"DESTACADOS DEL ARCHIVO", results:"RESULTADOS PARA", memberSince:"MIEMBRO DESDE", welcomeBack:"BIENVENIDO", unlimited:"ACCESO ILIMITADO", joinAcademy:"ÚNETE A VICTORY HOUR ACADEMY", signOut:"CERRAR SESIÓN", createAcc:"CREAR CUENTA GRATIS →", signInBtn:"INICIAR SESIÓN →", nameLabel:"NOMBRE COMPLETO", emailLabel:"CORREO ELECTRÓNICO", passLabel:"CONTRASEÑA", createTab:"CREAR CUENTA", loginTab:"INICIAR SESIÓN", freeAccess:"Acceso gratuito a un billón de prompts.", noLimits:"Crea tu cuenta gratis. Sin tarjeta. Sin límites.", welcomeBack2:"Bienvenido de nuevo al", archive:"archivo.", alreadyHave:"¿Ya tienes cuenta?", newHere:"¿Nuevo aquí?", hunger:"♥ EL 10% LUCHA CONTRA EL HAMBRE", deeperTitle:"Profundiza en formación IA", deeperSub:"hecha para creadores.", deeperBody:"Cursos, comunidad y herramientas en Victory Hour Academy. Gratis como PromptVault.", joinFree:"UNIRSE GRATIS →", copyPrompt:"COPIAR", copied:"✓ COPIADO", retrieving:"RECUPERANDO…", viewFull:"VER PROMPT COMPLETO →", of:"DE", tagline2:"Claridad. Estrategia. Acción." },
@@ -72,25 +72,25 @@ const SEED_PROMPTS = [
   { id:12, category:"education",    title:"Socratic Challenger",       uses:"1.1M", rating:4.9, tags:["critical thinking","philosophy"],    preview:"I believe [statement]. Challenge this belief Socratically. Don't tell me I'm wrong — ask questions that reveal the assumptions beneath my position..." },
 ];
 
-const STATS_VALS = { ar:["1,000,000,000,000","847+","4.2 مليون","4.8 ★"], default:["Unlimited","25","8","Free"] };
+const STATS_VALS = { ar:["غير محدود","25","8","مجاني"], zh:["无限","25","8","免费"], ja:["無制限","25","8","無料"], ko:["무제한","25","8","무료"], ru:["Безлимитно","25","8","Бесплатно"], fr:["Illimité","25","8","Gratuit"], es:["Ilimitado","25","8","Gratis"], pt:["Ilimitado","25","8","Grátis"], de:["Unbegrenzt","25","8","Kostenlos"], it:["Illimitato","25","8","Gratis"], default:["Unlimited","25","8","Free"] };
 const STAT_LABELS = {
   en:["AI Prompts","Languages","Categories","Always"],
-  fr:["Prompts Indexés","Catégories","Membres","Note Moyenne"],
-  ar:["الموجّهات المفهرسة","الفئات","الأعضاء","متوسط التقييم"],
-  es:["Prompts Indexados","Categorías","Miembros","Valoración"],
-  pt:["Prompts Indexados","Categorias","Membros","Avaliação"],
-  de:["Prompts Indexiert","Kategorien","Mitglieder","Ø Bewertung"],
-  it:["Prompt Indicizzati","Categorie","Membri","Valutazione"],
-  zh:["已索引提示词","分类","会员","平均评分"],
-  ja:["プロンプト数","カテゴリー","会員数","平均評価"],
-  ko:["프롬프트 수","카테고리","회원","평균 평점"],
-  ru:["Промптов","Категории","Участников","Ср. Оценка"],
+  fr:["Prompts IA","Langues","Catégories","Toujours"],
+  ar:["موجّهات الذكاء الاصطناعي","اللغات","الفئات","دائماً"],
+  es:["Prompts de IA","Idiomas","Categorías","Siempre"],
+  pt:["Prompts de IA","Idiomas","Categorias","Sempre"],
+  de:["KI-Prompts","Sprachen","Kategorien","Immer"],
+  it:["Prompt IA","Lingue","Categorie","Sempre"],
+  zh:["AI提示词","语言","分类","永远"],
+  ja:["AIプロンプト","言語","カテゴリー","いつでも"],
+  ko:["AI 프롬프트","언어","카테고리","항상"],
+  ru:["ИИ-Промпты","Языки","Категории","Всегда"],
 };
 const getStatLabel = (lang,i) => (STAT_LABELS[lang]??STAT_LABELS.en)[i];
 const getStatVals  = (lang)   => STATS_VALS[lang]??STATS_VALS.default;
 
 async function callClaude(system, userMsg) {
-  const res = await fetch("https://api.anthropic.com/v1/messages", {
+  const res = await fetch("https://claude-proxy.victoryhourdream.workers.dev/v1/messages", {
     method:"POST", headers:{"Content-Type":"application/json"},
     body:JSON.stringify({ model:"claude-sonnet-4-20250514", max_tokens:1000, system, messages:[{role:"user",content:userMsg}] }),
   });
@@ -249,7 +249,10 @@ function PromptCard({ prompt, onClick, delay, lang }) {
       style={{background:hovered?"rgba(18,28,46,1)":C.card,padding:"26px",cursor:"pointer",transition:"all 0.22s",borderLeft:`2px solid ${hovered?C.gold:"transparent"}`,animation:`fadeUp 0.45s ease ${delay}ms both`}}>
       <div style={{display:"flex",justifyContent:"space-between",alignItems:"flex-start",marginBottom:"12px"}}>
         <span style={{fontSize:"9px",letterSpacing:"0.2em",color:"rgba(201,168,76,0.6)",padding:"3px 8px",border:`1px solid ${C.goldDim}`}}>{prompt.category?.toUpperCase()}</span>
-        
+        <div style={{textAlign:"right"}}>
+          <div style={{fontSize:"12px",color:C.gold}}>★ {prompt.rating}</div>
+          <div style={{fontSize:"9px",color:"rgba(232,224,208,0.28)"}}>{prompt.uses} uses</div>
+        </div>
       </div>
       <h3 style={{fontSize:"16px",fontWeight:"400",color:hovered?C.text:"#D4C49A",marginBottom:"9px",lineHeight:"1.3",fontFamily:"'Georgia',serif",transition:"color 0.2s"}}>{prompt.title}</h3>
       <p style={{fontSize:"12px",color:C.muted,lineHeight:"1.7",marginBottom:"14px"}}>{prompt.preview?.slice(0,105)}…</p>
