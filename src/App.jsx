@@ -30,7 +30,7 @@ const LANGUAGES = [
 ];
 
 const UI = {
-  en:{ headline:"Unlimited", sub:"AI Prompts.", tagline:"The world's largest prompt archive — indexed, rated, and ready to deploy.", searchPH:"Search Unlimited prompts…", searchBtn:"SEARCH", searching:"SEARCHING…", featured:"FEATURED FROM THE ARCHIVE", results:"RESULTS FOR", memberSince:"MEMBER SINCE", welcomeBack:"WELCOME BACK", unlimited:"UNLIMITED ACCESS", joinAcademy:"JOIN VICTORY HOUR ACADEMY", signOut:"SIGN OUT", createAcc:"CREATE FREE ACCOUNT →", signInBtn:"SIGN IN →", nameLabel:"FULL NAME", emailLabel:"EMAIL ADDRESS", passLabel:"PASSWORD", createTab:"CREATE ACCOUNT", loginTab:"SIGN IN", freeAccess:"Free access to Unlimited prompts.", noLimits:"Create your free account. No credit card. No limits.", welcomeBack2:"Welcome back to the", archive:"archive.", alreadyHave:"Already have an account?", newHere:"New here?", hunger:"♥ 10% OF ALL PROCEEDS FIGHTS WORLD HUNGER", deeperTitle:"Go deeper with AI training", deeperSub:"built for builders.", deeperBody:"Courses, community, and tools inside Victory Hour Academy. Free to join — just like PromptVault.", joinFree:"JOIN FREE →", copyPrompt:"COPY PROMPT", copied:"✓ COPIED", retrieving:"RETRIEVING FROM THE ARCHIVE…", viewFull:"VIEW FULL PROMPT →", of:"OF", tagline2:"Clarity. Strategy. Action." },
+  en:{ headline:"Unlimited", sub:"AI Prompts.", tagline:"Unlimited AI prompts generated on demand — search anything, in any language.", searchPH:"Search unlimited AI prompts…", searchBtn:"SEARCH", searching:"SEARCHING…", featured:"FEATURED FROM THE ARCHIVE", results:"RESULTS FOR", memberSince:"MEMBER SINCE", welcomeBack:"WELCOME BACK", unlimited:"UNLIMITED ACCESS", joinAcademy:"JOIN VICTORY HOUR ACADEMY", signOut:"SIGN OUT", createAcc:"CREATE FREE ACCOUNT →", signInBtn:"SIGN IN →", nameLabel:"FULL NAME", emailLabel:"EMAIL ADDRESS", passLabel:"PASSWORD", createTab:"CREATE ACCOUNT", loginTab:"SIGN IN", freeAccess:"Free access to unlimited AI prompts.", noLimits:"Create your free account. No credit card. No limits.", welcomeBack2:"Welcome back to the", archive:"archive.", alreadyHave:"Already have an account?", newHere:"New here?", hunger:"♥ 10% OF ALL PROCEEDS FIGHTS WORLD HUNGER", deeperTitle:"Go deeper with AI training", deeperSub:"built for builders.", deeperBody:"Victory Hour Academy is coming soon. AI courses, community, and tools — all under one roof.", joinFree:"COMING SOON", copyPrompt:"COPY PROMPT", copied:"✓ COPIED", retrieving:"RETRIEVING FROM THE ARCHIVE…", viewFull:"VIEW FULL PROMPT →", of:"OF", tagline2:"Clarity. Strategy. Action." },
   fr:{ headline:"Un Trillion", sub:"de Prompts IA.", tagline:"La plus grande archive de prompts — indexée, notée, prête à l'emploi.", searchPH:"Chercher parmi un trillion de prompts…", searchBtn:"CHERCHER", searching:"RECHERCHE…", featured:"SÉLECTION DE L'ARCHIVE", results:"RÉSULTATS POUR", memberSince:"MEMBRE DEPUIS", welcomeBack:"BIENVENUE", unlimited:"ACCÈS ILLIMITÉ", joinAcademy:"REJOINDRE VICTORY HOUR ACADEMY", signOut:"SE DÉCONNECTER", createAcc:"CRÉER UN COMPTE GRATUIT →", signInBtn:"SE CONNECTER →", nameLabel:"NOM COMPLET", emailLabel:"ADRESSE EMAIL", passLabel:"MOT DE PASSE", createTab:"CRÉER UN COMPTE", loginTab:"CONNEXION", freeAccess:"Accès gratuit à un trillion de prompts.", noLimits:"Créez votre compte gratuit. Sans carte. Sans limites.", welcomeBack2:"Bon retour dans l'", archive:"archive.", alreadyHave:"Déjà un compte?", newHere:"Nouveau ici?", hunger:"♥ 10% DES REVENUS LUTTE CONTRE LA FAIM", deeperTitle:"Approfondissez votre formation IA", deeperSub:"faite pour les créateurs.", deeperBody:"Cours, communauté et outils dans Victory Hour Academy. Gratuit comme PromptVault.", joinFree:"REJOINDRE →", copyPrompt:"COPIER", copied:"✓ COPIÉ", retrieving:"RÉCUPÉRATION…", viewFull:"VOIR LE PROMPT COMPLET →", of:"SUR", tagline2:"Clarté. Stratégie. Action." },
   ar:{ headline:"تريليون", sub:"موجّه للذكاء الاصطناعي.", tagline:"أكبر أرشيف للموجّهات في العالم — مفهرس، مُقيّم، جاهز للاستخدام.", searchPH:"ابحث في تريليون موجّه…", searchBtn:"بحث", searching:"جارٍ البحث…", featured:"مختارات من الأرشيف", results:"نتائج لـ", memberSince:"عضو منذ", welcomeBack:"مرحباً بعودتك", unlimited:"وصول غير محدود", joinAcademy:"انضم لـ Victory Hour Academy", signOut:"تسجيل الخروج", createAcc:"إنشاء حساب مجاني →", signInBtn:"تسجيل الدخول →", nameLabel:"الاسم الكامل", emailLabel:"البريد الإلكتروني", passLabel:"كلمة المرور", createTab:"إنشاء حساب", loginTab:"تسجيل الدخول", freeAccess:"وصول مجاني لتريليون موجّه.", noLimits:"أنشئ حسابك المجاني. بدون بطاقة. بدون حدود.", welcomeBack2:"مرحباً بعودتك إلى", archive:"الأرشيف.", alreadyHave:"لديك حساب؟", newHere:"هنا لأول مرة؟", hunger:"♥ ١٠٪ من العائدات لمحاربة الجوع", deeperTitle:"تعمّق في تدريب الذكاء الاصطناعي", deeperSub:"مصمّم للبنّائين.", deeperBody:"دورات ومجتمع وأدوات داخل Victory Hour Academy. مجاني مثل PromptVault.", joinFree:"انضم مجاناً →", copyPrompt:"نسخ", copied:"✓ تم النسخ", retrieving:"جارٍ الاسترداد…", viewFull:"عرض الموجّه الكامل →", of:"من", tagline2:"وضوح. استراتيجية. عمل." },
   es:{ headline:"Un Billón", sub:"de Prompts de IA.", tagline:"El archivo de prompts más grande del mundo — indexado, valorado, listo para usar.", searchPH:"Buscar entre un billón de prompts…", searchBtn:"BUSCAR", searching:"BUSCANDO…", featured:"DESTACADOS DEL ARCHIVO", results:"RESULTADOS PARA", memberSince:"MIEMBRO DESDE", welcomeBack:"BIENVENIDO", unlimited:"ACCESO ILIMITADO", joinAcademy:"ÚNETE A VICTORY HOUR ACADEMY", signOut:"CERRAR SESIÓN", createAcc:"CREAR CUENTA GRATIS →", signInBtn:"INICIAR SESIÓN →", nameLabel:"NOMBRE COMPLETO", emailLabel:"CORREO ELECTRÓNICO", passLabel:"CONTRASEÑA", createTab:"CREAR CUENTA", loginTab:"INICIAR SESIÓN", freeAccess:"Acceso gratuito a un billón de prompts.", noLimits:"Crea tu cuenta gratis. Sin tarjeta. Sin límites.", welcomeBack2:"Bienvenido de nuevo al", archive:"archivo.", alreadyHave:"¿Ya tienes cuenta?", newHere:"¿Nuevo aquí?", hunger:"♥ EL 10% LUCHA CONTRA EL HAMBRE", deeperTitle:"Profundiza en formación IA", deeperSub:"hecha para creadores.", deeperBody:"Cursos, comunidad y herramientas en Victory Hour Academy. Gratis como PromptVault.", joinFree:"UNIRSE GRATIS →", copyPrompt:"COPIAR", copied:"✓ COPIADO", retrieving:"RECUPERANDO…", viewFull:"VER PROMPT COMPLETO →", of:"DE", tagline2:"Claridad. Estrategia. Acción." },
@@ -72,9 +72,9 @@ const SEED_PROMPTS = [
   { id:12, category:"education",    title:"Socratic Challenger",       uses:"1.1M", rating:4.9, tags:["critical thinking","philosophy"],    preview:"I believe [statement]. Challenge this belief Socratically. Don't tell me I'm wrong — ask questions that reveal the assumptions beneath my position..." },
 ];
 
-const STATS_VALS = { ar:["1,000,000,000,000","847+","4.2 مليون","4.8 ★"], default:["Unlimited","25","8","Free"] };
+const STATS_VALS = { ar:["1,000,000,000,000","847+","4.2 مليون","4.8 ★"], default:["1,000,000,000,000","847+","4.2M","4.8 ★"] };
 const STAT_LABELS = {
-  en:["AI Prompts","Languages","Categories","Always"],
+  en:["Prompts Indexed","Categories","Members","Avg Rating"],
   fr:["Prompts Indexés","Catégories","Membres","Note Moyenne"],
   ar:["الموجّهات المفهرسة","الفئات","الأعضاء","متوسط التقييم"],
   es:["Prompts Indexados","Categorías","Miembros","Valoración"],
@@ -90,7 +90,7 @@ const getStatLabel = (lang,i) => (STAT_LABELS[lang]??STAT_LABELS.en)[i];
 const getStatVals  = (lang)   => STATS_VALS[lang]??STATS_VALS.default;
 
 async function callClaude(system, userMsg) {
-  const res = await fetch("https://claude-proxy.victoryhourdream.workers.dev/v1/messages", {
+  const res = await fetch("https://api.anthropic.com/v1/messages", {
     method:"POST", headers:{"Content-Type":"application/json"},
     body:JSON.stringify({ model:"claude-sonnet-4-20250514", max_tokens:1000, system, messages:[{role:"user",content:userMsg}] }),
   });
@@ -369,7 +369,7 @@ export default function App() {
                   <div style={{fontSize:"9px",color:"rgba(201,168,76,0.4)",marginTop:"5px",letterSpacing:"0.09em"}}>{t(lang,"memberSince")} {new Date(user.joined).toLocaleDateString("en-US",{month:"short",year:"numeric"}).toUpperCase()}</div>
                 </div>
                 <div style={{padding:"6px"}}>
-                  <a href="https://skool.com/victoryhour" target="_blank" rel="noopener noreferrer" style={{display:"block",padding:"9px 13px",fontSize:"11px",color:C.gold,textDecoration:"none",letterSpacing:"0.09em"}}>↗ {t(lang,"joinAcademy")}</a>
+                  <a href="#" target="_blank" rel="noopener noreferrer" style={{display:"block",padding:"9px 13px",fontSize:"11px",color:C.gold,textDecoration:"none",letterSpacing:"0.09em"}}>↗ {t(lang,"joinAcademy")}</a>
                   <button onClick={logout} style={{display:"block",width:"100%",textAlign:"left",padding:"9px 13px",background:"none",border:"none",fontSize:"11px",color:C.muted,cursor:"pointer",letterSpacing:"0.09em"}}>{t(lang,"signOut")}</button>
                 </div>
               </div>
@@ -424,7 +424,7 @@ export default function App() {
           </span>
           <div style={{flex:1,height:"1px",background:"rgba(201,168,76,0.07)"}}/>
           <span style={{fontSize:"9px",letterSpacing:"0.13em",color:"rgba(232,224,208,0.18)",whiteSpace:"nowrap"}}>
-            {loading?t(lang,"searching"):`${displayPrompts.length} ${t(lang,"of")} 1,000,000,000,000`}
+            {loading?t(lang,"searching"):`${displayPrompts.length} ${t(lang,"of")} UNLIMITED`}
           </span>
         </div>
 
@@ -443,41 +443,39 @@ export default function App() {
             ))}
           </div>
         )}
+
         {/* ECOSYSTEM */}
-<div style={{marginBottom:"56px"}}>
-  <div style={{textAlign:"center",marginBottom:"36px"}}>
-    <div style={{fontSize:"10px",letterSpacing:"0.3em",color:C.gold,marginBottom:"10px"}}>VICTORY HOUR ECOSYSTEM</div>
-    <h2 style={{fontSize:"28px",fontWeight:"400",fontFamily:"'Georgia',serif",color:C.text}}>
-      Tools Built for <span style={{color:C.gold,fontStyle:"italic"}}>Builders.</span>
-    </h2>
-  </div>
-  <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(220px,1fr))",gap:"1px",background:"rgba(201,168,76,0.07)"}}>
-    {[
-      {icon:"📧",name:"Claude Vibe Guide",price:"$17",desc:"Master Claude AI from scratch",url:"https://victoryhour.gumroad.com/l/uayuj"},
-      {icon:"⚖️",name:"ComplianceForge™",price:"Free Trial",desc:"AI-powered regulatory compliance",url:"https://nhp-comply.pages.dev"},
-      {icon:"📞",name:"VictoryReception AI",price:"From $49/mo",desc:"AI voicemail in any language",url:"https://victoryreception.com"},
-      {icon:"🎯",name:"Niche Hunter AI",price:"$2.99",desc:"Find your perfect profitable niche",url:"https://victoryhour.gumroad.com/l/nichehunter"},
-      {icon:"🚀",name:"Coming Soon",price:"—",desc:"New tool dropping soon",url:"#"},
-      {icon:"⚡",name:"Coming Soon",price:"—",desc:"New tool dropping soon",url:"#"},
-      {icon:"🧠",name:"Coming Soon",price:"—",desc:"New tool dropping soon",url:"#"},
-      {icon:"💰",name:"Coming Soon",price:"—",desc:"New tool dropping soon",url:"#"},
-      {icon:"🌍",name:"Coming Soon",price:"—",desc:"New tool dropping soon",url:"#"},
-      {icon:"🔥",name:"Coming Soon",price:"—",desc:"New tool dropping soon",url:"#"},
-    ].map((product,i)=>(
-      <a key={i} href={product.url} target="_blank" rel="noopener noreferrer"
-        style={{display:"block",padding:"28px 24px",background:C.card,textDecoration:"none",transition:"all 0.22s",borderLeft:"2px solid transparent"}}
-        onMouseEnter={e=>{e.currentTarget.style.background="rgba(18,28,46,1)";e.currentTarget.style.borderLeft=`2px solid ${C.gold}`;}}
-        onMouseLeave={e=>{e.currentTarget.style.background=C.card;e.currentTarget.style.borderLeft="2px solid transparent";}}>
-        <div style={{fontSize:"28px",marginBottom:"12px"}}>{product.icon}</div>
-        <div style={{fontSize:"13px",fontWeight:"400",color:C.text,fontFamily:"'Georgia',serif",marginBottom:"6px"}}>{product.name}</div>
-        <div style={{fontSize:"11px",color:C.gold,marginBottom:"8px",letterSpacing:"0.1em"}}>{product.price}</div>
-        <div style={{fontSize:"11px",color:C.muted,lineHeight:"1.6"}}>{product.desc}</div>
-        {product.url !== "#" && <div style={{marginTop:"14px",fontSize:"10px",letterSpacing:"0.15em",color:C.gold}}>GET IT →</div>}
-        {product.url === "#" && <div style={{marginTop:"14px",fontSize:"10px",letterSpacing:"0.15em",color:"rgba(201,168,76,0.3)"}}>COMING SOON</div>}
-      </a>
-    ))}
-  </div>
-</div>
+        <div style={{marginTop:"56px",marginBottom:"56px"}}>
+          <div style={{textAlign:"center",marginBottom:"36px"}}>
+            <div style={{fontSize:"10px",letterSpacing:"0.3em",color:C.gold,marginBottom:"10px"}}>VICTORY HOUR ECOSYSTEM</div>
+            <h2 style={{fontSize:"28px",fontWeight:"400",fontFamily:"'Georgia',serif",color:C.text,margin:"0 0 10px"}}>Tools Built for <span style={{color:C.gold,fontStyle:"italic"}}>Builders.</span></h2>
+            <p style={{fontSize:"13px",color:C.muted,maxWidth:"400px",margin:"0 auto",lineHeight:"1.7"}}>Everything you need to build, automate, and grow — under one roof.</p>
+          </div>
+          <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(220px,1fr))",gap:"1px",background:"rgba(201,168,76,0.07)"}}>
+            {[
+              {icon:"📧",name:"Claude Vibe Guide",desc:"Master Claude AI from scratch",url:"https://victoryhour.gumroad.com/l/uayuj"},
+              {icon:"⚖️",name:"ComplianceForge™",desc:"AI-powered regulatory compliance",url:"https://nhp-comply.pages.dev"},
+              {icon:"📞",name:"VictoryReception AI",desc:"AI voicemail in any language",url:"https://victoryreception.com"},
+              {icon:"🎯",name:"Niche Hunter AI",desc:"Find your profitable niche",url:"https://victoryhour.gumroad.com/l/nichehunter"},
+              {icon:"🌐",name:"AI Website Mastery™",desc:"Build faster sites with Claude & Cloudflare",url:"https://victoryhour.gumroad.com/l/eczzcc"},
+              {icon:"📊",name:"Claude + Excel Revolution™",desc:"Upgrade your spreadsheet workflow with Claude",url:"https://victoryhour.gumroad.com/l/peesqk"},
+              {icon:"🧘",name:"Break the Cycle",desc:"Emotional control and behavioral mastery",url:"https://victoryhour.gumroad.com/l/znipe"},
+              {icon:"🎬",name:"Claudize It™",desc:"Build a cinematic AI ad with Claude",url:"https://victoryhour.gumroad.com/l/vxhvu"},
+              {icon:"📖",name:"Victory Hour Claude Vibe Guide",desc:"The complete guide to mastering Claude AI",url:"https://victoryhour.gumroad.com/l/uayuj"},
+              {icon:"🛍️",name:"Etsy Marketing Scripts",desc:"100 done-for-you scripts for Etsy sellers",url:"https://victoryhour.gumroad.com/l/pshvb"},
+            ].map((p,i)=>(
+              <a key={i} href={p.url} target="_blank" rel="noopener noreferrer"
+                style={{display:"block",padding:"28px 24px",background:C.card,textDecoration:"none",transition:"all 0.22s",borderLeft:"2px solid transparent"}}
+                onMouseEnter={e=>{e.currentTarget.style.background="rgba(18,28,46,1)";e.currentTarget.style.borderLeft=`2px solid ${C.gold}`;}} onMouseLeave={e=>{e.currentTarget.style.background=C.card;e.currentTarget.style.borderLeft="2px solid transparent";}}>
+                <div style={{fontSize:"28px",marginBottom:"12px"}}>{p.icon}</div>
+                <div style={{fontSize:"13px",fontWeight:"400",color:C.text,fontFamily:"'Georgia',serif",marginBottom:"8px"}}>{p.name}</div>
+                <div style={{fontSize:"11px",color:C.muted,lineHeight:"1.6",marginBottom:"14px"}}>{p.desc}</div>
+                <div style={{fontSize:"10px",letterSpacing:"0.15em",color:C.gold}}>GET IT →</div>
+              </a>
+            ))}
+          </div>
+        </div>
+
         {/* ACADEMY BANNER */}
         <div style={{marginTop:"56px",border:`1px solid rgba(201,168,76,0.18)`,padding:"40px 36px",display:"flex",alignItems:"center",justifyContent:"space-between",flexWrap:"wrap",gap:"24px",background:"rgba(11,29,58,0.35)",position:"relative",overflow:"hidden"}}>
           <div style={{position:"absolute",top:0,right:0,width:"250px",height:"100%",background:"linear-gradient(90deg,transparent,rgba(201,168,76,0.03))",pointerEvents:"none"}}/>
@@ -488,7 +486,7 @@ export default function App() {
             </h3>
             <p style={{fontSize:"13px",color:C.muted,lineHeight:"1.7",maxWidth:"380px"}}>{t(lang,"deeperBody")}</p>
           </div>
-          <a href="https://skool.com/victoryhour" target="_blank" rel="noopener noreferrer"
+          <a href="#" target="_blank" rel="noopener noreferrer"
             style={{padding:"15px 32px",background:C.gold,color:C.navy,textDecoration:"none",fontSize:"11px",letterSpacing:"0.18em",fontFamily:"'Georgia',serif",whiteSpace:"nowrap",flexShrink:0,transition:"opacity 0.2s"}}
             onMouseEnter={e=>e.target.style.opacity="0.85"} onMouseLeave={e=>e.target.style.opacity="1"}>
             {t(lang,"joinFree")}
@@ -520,3 +518,5 @@ export default function App() {
     </div>
   );
 }
+
+
