@@ -72,9 +72,9 @@ const SEED_PROMPTS = [
   { id:12, category:"education",    title:"Socratic Challenger",       uses:"1.1M", rating:4.9, tags:["critical thinking","philosophy"],    preview:"I believe [statement]. Challenge this belief Socratically. Don't tell me I'm wrong — ask questions that reveal the assumptions beneath my position..." },
 ];
 
-const STATS_VALS = { ar:["1,000,000,000,000","847+","4.2 مليون","4.8 ★"], default:["1,000,000,000,000","847+","4.2M","4.8 ★"] };
+const STATS_VALS = { ar:["1,000,000,000,000","847+","4.2 مليون","4.8 ★"], default:["Unlimited","25","8","Free"] };
 const STAT_LABELS = {
-  en:["Prompts Indexed","Categories","Members","Avg Rating"],
+  en:["AI Prompts","Languages","Categories","Always"],
   fr:["Prompts Indexés","Catégories","Membres","Note Moyenne"],
   ar:["الموجّهات المفهرسة","الفئات","الأعضاء","متوسط التقييم"],
   es:["Prompts Indexados","Categorías","Miembros","Valoración"],
